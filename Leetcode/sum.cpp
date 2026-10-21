@@ -7,8 +7,10 @@ using namespace std;
 
 int main() {
     int target,n;
-    cout<<"Enther your target and number of element :";
-    cin>>target>>n;
+    cout<<"Enther your target :";
+    cin>>target;
+    cout<<"Number of element :";
+    cin>>n;
     vector <int> vec(n);
 
     for ( int i = 0 ; i<n ; i++)
